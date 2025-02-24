@@ -11,7 +11,7 @@ const Header: FC = () => {
                 <ul className="topbar-left-one">
                     <li>
                         <Image src="/assets/images/svg/header/mail.svg" alt="icon" width={24} height={24} />
-                        <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                        <Link href="mailto:needhelp@company.com">needhelp@company.com</Link>
                     </li>
                     <li>
                         <Image src="/assets/images/svg/header/clock.svg" alt="icon" width={24} height={24} />
