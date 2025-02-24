@@ -1,6 +1,19 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Header from '@/components/Header/Header';
+import '@/styles/variables.css';
+import "@/styles/responsive.css";
+import "@/styles/style.css";
+import "@/styles/animate.min.css";
+import "@/styles/bootstrap.min.css";
+import "@/styles/slick.css";
+// import "@/styles/slick-theme.css";
+import "@/styles/font-awesome/all.min.css";
+import "@/styles/select2.min.css";
+import "@/styles/youtube-popup.css"
+import Script from 'next/script';
+import Image from "next/image";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,9 +38,32 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased custom-cursor`}
       >
+        <div className="custom-cursor-one"></div>
+        <div className="custom-cursor-two"></div>
+        <div className="preloader">
+            <div className="loading-container">
+                <div className="loading-image">
+                <Image src="/assets/images/preloader-image.png" alt="logo" width={100} height={100}/>
+                <div className="logo-text">
+                    <h1>Uniqo</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+        <Header />
         {children}
+        <Script src="/assets/vendors/jquery/jquery-3.7.1.min.js" strategy="beforeInteractive" />
+        <Script src="/assets/vendors/bootstrap/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
+        <Script src="/assets/vendors/slick/slick.min.js" strategy="beforeInteractive" />
+        <Script src="/assets/vendors/wow/wow.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/custom.js" strategy="afterInteractive" />
+        <script src="/assets/vendors/youtube-popup/youtube-popup.js"></script>
+        <script src="/assets/vendors/select2/js/jquery.circleGraph.js"></script>
+        <script src="/assets/vendors/select2/js/jquery.circleType.js"></script>
+        <script src="/assets/vendors/select2/js/jquery.lettering.min.js"></script>
+        <script src="/assets/vendors/select2/js/odometer.min"></script>
       </body>
     </html>
   );

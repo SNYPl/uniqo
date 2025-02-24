@@ -20,6 +20,9 @@
 # production
 /build
 
+/uniqo-doc
+/uniqo-placeholder
+
 # misc
 .DS_Store
 *.pem
