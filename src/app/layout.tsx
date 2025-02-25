@@ -14,6 +14,11 @@ import "@/styles/select2.min.css";
 import "@/styles/youtube-popup.css"
 import Script from 'next/script';
 import Image from "next/image";
+import MobileNav from '@/components/MobileNav/MobileNav';
+import SideMenu from '@/components/SideMenu/SideMenu';
+import SearchPopup from '@/components/SearchPopup/SearchPopup';
+import ScrollToTop from '@/components/ScrollToTop/ScrollToTop';
+import Footer from '@/components/Footer/Footer';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -96,6 +101,12 @@ export default function RootLayout({
           strategy="afterInteractive"
           id="custom"
         />
+
+        <Footer />
+        <MobileNav />
+        <SideMenu />
+        <SearchPopup />
+        <ScrollToTop />
 
       </body>
     </html>

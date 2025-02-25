@@ -1,10 +1,22 @@
-import Banner from "@/components/Banner/Banner";
+import Services from '@/components/Services/Services';
+import About from '@/components/About/About';
+import Process from '@/components/Process/Process';
+import Testimonial from '@/components/Testimonial/Testimonial';
+import WhyChoose from '@/components/WhyChoose/WhyChoose';
+import Banner from '@/components/Banner/Banner';
+import Work from '@/components/Work/Work';
+import Team from '@/components/Team/Team';
 export default function Home() {
   return (
-    <>  
-      <Banner />
-
-      
-    </>
+    <main>
+       <Banner />
+      <Services />
+      <About />
+      <Process />
+      <Testimonial />
+      <WhyChoose />
+      <Work />
+      <Team />
+    </main>
   );
 }
