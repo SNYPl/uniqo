@@ -4,12 +4,13 @@ import Link from 'next/link';
 
 const About = () => {
   return (
-    <div className="about-section-one">
+    <>
+       <div className="about-section-one">
         <div className="container">
             <div className="row">
                 <div className="col-xl-6 col-lg-8">
                     <div className="about-left-one">
-                        <Image src="/assets/images/about/about-one.png" alt="About" width={500} height={500} />
+                        <Image src="/assets/images/about/about-one.png" alt="about" width={500} height={500} />
                     </div>
                 </div>
                 <div className="col-xl-6">
@@ -57,6 +58,9 @@ const About = () => {
             </div>
         </div>
     </div>
+   
+    
+    </>
   );
 };
 

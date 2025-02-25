@@ -4421,7 +4421,7 @@ ul.footer-about-list-three li a:hover{
     margin-bottom: 0;
     font-weight: 700;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-strokeWidth: 1px;
     -webkit-text-stroke-color: var(--uniqo-secondary);
     font-family: sans-serif;
 }
@@ -6375,7 +6375,7 @@ input[type="search"]::-ms-clear {
 }
 .prgoress_indicator svg.progress-circle path {
   stroke:var(--uniqo-secondary);
-  stroke-width: 4;
+  strokeWidth: 4;
   box-sizing: border-box;
   transition: all 200ms linear !important;
 }
