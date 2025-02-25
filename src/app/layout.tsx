@@ -59,11 +59,11 @@ export default function RootLayout({
         <Script src="/assets/vendors/slick/slick.min.js" strategy="beforeInteractive" />
         <Script src="/assets/vendors/wow/wow.js" strategy="beforeInteractive" />
         <Script src="/assets/js/custom.js" strategy="afterInteractive" />
-        <script src="/assets/vendors/youtube-popup/youtube-popup.js"></script>
-        <script src="/assets/vendors/select2/js/jquery.circleGraph.js"></script>
-        <script src="/assets/vendors/select2/js/jquery.circleType.js"></script>
-        <script src="/assets/vendors/select2/js/jquery.lettering.min.js"></script>
-        <script src="/assets/vendors/select2/js/odometer.min"></script>
+        <Script src="/assets/vendors/youtube-popup/youtube-popup.js" strategy="beforeInteractive" />
+        <Script src="/assets/vendors/select2/js/jquery.circleGraph.js" strategy="beforeInteractive" />
+        <Script src="/assets/vendors/select2/js/jquery.circleType.js" strategy="beforeInteractive" />
+        <Script src="/assets/vendors/select2/js/jquery.lettering.min.js" strategy="beforeInteractive" />
+        <Script src="/assets/vendors/select2/js/odometer.min" strategy="beforeInteractive" />
       </body>
     </html>
   );

@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 const Banner = () => {
     return (
         <div className="banner-section-one">
             <div className="banner-silder-one">
                 <div className="banner-slide-item-one">
                     <div className="banner-image-one">
-                        <img src="/assets/images/background/banner-one-image.jpg" alt="banner-image" />
+                        <Image src="/assets/images/background/banner-one-image.jpg" alt="banner-image" width={100} height={100}/>
                     </div>
                     <div className="container-fluid">
                         <div className="row">
@@ -24,7 +26,7 @@ const Banner = () => {
                 </div>
                 <div className="banner-slide-item-one">
                     <div className="banner-image-one">
-                        <img src="/assets/images/background/banner-one-image-3.jpg" alt="banner-image" />
+                        <Image src="/assets/images/background/banner-one-image-3.jpg" alt="banner-image"  width={100} height={100}/>
                     </div>
                     <div className="container-fluid">
                         <div className="row">
@@ -44,7 +46,7 @@ const Banner = () => {
                 </div>
                 <div className="banner-slide-item-one">
                     <div className="banner-image-one">
-                        <img src="/assets/images/background/banner-one-image-4.jpg" alt="banner-image" />
+                        <Image src="/assets/images/background/banner-one-image-4.jpg" alt="banner-image" width={100} height={100} />
                     </div>
                     <div className="container-fluid">
                         <div className="row">
