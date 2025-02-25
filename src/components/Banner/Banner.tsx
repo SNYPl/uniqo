@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 const Banner = () => {
@@ -6,7 +7,7 @@ const Banner = () => {
             <div className="banner-silder-one">
                 <div className="banner-slide-item-one">
                     <div className="banner-image-one">
-                        <Image src="/assets/images/background/banner-one-image.jpg" alt="banner-image" width={100} height={100}/>
+                        <Image src="/assets/images/background/banner-one-image.jpg" alt="banner-image" fill/>
                     </div>
                     <div className="container-fluid">
                         <div className="row">
@@ -26,7 +27,7 @@ const Banner = () => {
                 </div>
                 <div className="banner-slide-item-one">
                     <div className="banner-image-one">
-                        <Image src="/assets/images/background/banner-one-image-3.jpg" alt="banner-image"  width={100} height={100}/>
+                        <Image src="/assets/images/background/banner-one-image-3.jpg" alt="banner-image"  fill/>
                     </div>
                     <div className="container-fluid">
                         <div className="row">
@@ -46,7 +47,7 @@ const Banner = () => {
                 </div>
                 <div className="banner-slide-item-one">
                     <div className="banner-image-one">
-                        <Image src="/assets/images/background/banner-one-image-4.jpg" alt="banner-image" width={100} height={100} />
+                        <Image src="/assets/images/background/banner-one-image-4.jpg" alt="banner-image" fill />
                     </div>
                     <div className="container-fluid">
                         <div className="row">
