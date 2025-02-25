@@ -1,7 +1,6 @@
 import Services from '@/components/Services/Services';
 import About from '@/components/About/About';
 import Process from '@/components/Process/Process';
-import Testimonial from '@/components/Testimonial/Testimonial';
 import WhyChoose from '@/components/WhyChoose/WhyChoose';
 import Banner from '@/components/Banner/Banner';
 import Work from '@/components/Work/Work';
@@ -13,7 +12,6 @@ export default function Home() {
       <Services />
       <About />
       <Process />
-      <Testimonial />
       <WhyChoose />
       <Work />
       <Team />
