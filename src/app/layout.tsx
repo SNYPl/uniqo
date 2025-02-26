@@ -13,7 +13,7 @@ import "@/styles/font-awesome/all.min.css";
 import "@/styles/select2.min.css";
 import "@/styles/youtube-popup.css"
 import Script from 'next/script';
-import Image from "next/image";
+// import Image from "next/image";
 import MobileNav from '@/components/MobileNav/MobileNav';
 import SideMenu from '@/components/SideMenu/SideMenu';
 import SearchPopup from '@/components/SearchPopup/SearchPopup';
