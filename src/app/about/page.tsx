@@ -1,10 +1,8 @@
 import React from 'react';
 import Script from 'next/script';
 import PageBanner from '@/components/PageBanner/PageBanner';
-import AboutBanner from '@/components/About/AboutBanner';
 import About from '@/components/About/About';
 import WhyChooseSkills from '@/components/WhyChoose/WhyChooseSkills';
-import CTA from '@/components/CTA/CTA';
 import Team from '@/components/Team/Team';
 
 export default function AboutPage() {
@@ -19,10 +17,8 @@ export default function AboutPage() {
             { label: "About us", link: "/about" }
           ]} 
         />
-        <AboutBanner />
         <About />
         <WhyChooseSkills />
-        <CTA />
         <Team />
       </main>
 

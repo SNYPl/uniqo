@@ -48,9 +48,18 @@ const Header: FC = () => {
                 </div>
                 <div className="main-menu-inner">
                     <ul className="main-menu-list">
-                        <li className="menu-item-children active"><Link href="#">Home</Link></li>
-                        <li className="menu-item-children"><Link href="#">Services</Link></li>
-                        <li className="menu-item-children"><Link href="#">About us</Link></li>
+                        <li className="menu-item-children active"><Link href="/">Home</Link></li>
+                        <li className="menu-item-children active"><a href="#">Services</a><i
+                                className="fa-solid fa-chevron-down"></i>
+                            <ul>
+                                <li><Link href="/services">Service</Link></li>
+                                <li><Link href="/courses">Courses</Link></li>
+                                
+                            </ul>
+                        </li>
+                        <li className="menu-item-children"><Link href="/team">Team</Link></li>
+                        <li className="menu-item-children"><Link href="/about">About us</Link></li>
+                        <li className="menu-item-children"><Link href="/process ">Process</Link></li>
                         <li className="menu-item-children"><Link href="/contact">Contact Us</Link></li>
                     </ul>
                     <div className="header-menu-collaps">

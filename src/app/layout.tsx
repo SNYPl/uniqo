@@ -42,7 +42,7 @@ export default function RootLayout({
       >
         <div className="custom-cursor-one"></div>
         <div className="custom-cursor-two"></div>
-        <div className="preloader">
+        {/* <div className="preloader">
             <div className="loading-container">
                 <div className="loading-image">
                 <Image src="/assets/images/preloader-image.png" alt="logo" width={100} height={100}/>
@@ -51,7 +51,7 @@ export default function RootLayout({
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
         <Header />
         {children}
        

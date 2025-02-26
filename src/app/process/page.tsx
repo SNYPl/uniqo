@@ -1,19 +1,17 @@
 import PageBanner from '@/components/PageBanner/PageBanner';
-import Contact from '@/components/Contact/Contact';
-
-
+import Process from '@/components/Process/Process';
 export default function Home() {
   return (
     <main>
       <PageBanner
-        title="Contact Us"
+        title="Process"
         description="Leverage agile frameworks to provide a robust synopsis for high level overviews."
         breadcrumb={[
           { label: "Home", link: "/" },
-          { label: "Contact us", link: "/contact" }
+          { label: "Process", link: "/process" }
         ]}
       />
-      <Contact />
+      <Process />
     </main>
   );
 }
