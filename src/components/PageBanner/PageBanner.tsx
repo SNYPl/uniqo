@@ -11,13 +11,18 @@ interface PageBannerProps {
   title: string;
   description?: string;
   breadcrumb: Breadcrumb[];
-  backgroundImage?: string;
+  backgroundImage: string ;
 }
 
 const PageBanner = ({ title, description, breadcrumb, backgroundImage }: PageBannerProps) => {
+ 
+
   return (
-    <div className="page-header-section" style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <div className="page-header-section" >
         <div className="container">
+        <div className="banner-image-one">
+                        <Image src={backgroundImage} alt="banner-image" fill/>
+                    </div>
             <div className="row">
                 <div className="col-xl-6 col-lg-8">
                     <div className="page-header-heading animate fadeInLeft wow" data-wow-duration="2000ms">

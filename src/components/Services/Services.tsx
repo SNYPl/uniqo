@@ -7,7 +7,7 @@ const Services = () => {
     <div className="service-section-one">
     <div className="container">
         <div className="row gutter-y-30 justify-content-between">
-            <div className="col-lg-5">
+            <div className="col-lg-4">
                 <div className="service-left-one">
                     <div className="heading-box">
                         <span className="sub-title animate fadeInUp wow" data-wow-duration="1500ms">Services</span>
@@ -20,7 +20,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-xl-6 col-lg-7">
+            <div className="col-xl-8 col-lg-8">
                 <div className="service-right-one">
                     <div className="service-right-inner-one">
                         <div className="service-box-one animate fadeInUp wow" data-wow-duration="1500ms">
@@ -46,9 +46,12 @@ const Services = () => {
                                         strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </div>
-                            <h4>Business Analysis</h4>
-                            <p>We guarantee to provide affordable business consulting solutions that help you reduce
-                                costs and your profits.</p>
+                            <h4>NeuroLeadership Analysis of the Organization</h4>
+                            <p>Neuroleadership analysis identifies the strengths and weaknesses of an organization,
+                            considering organizational dynamics and culture. The service includes the assessment of
+                            cognitive flexibility, decision-making ability, innovative thinking, team engagement, and stress
+                            management. Based on the analysis results, we determine the organization’s alignment with the
+                            principles of NeuroLeadership.</p>
                             <Link href="/service-details" className="service-btn-one"><i className="fa-solid fa-angle-right"></i></Link>
                         </div>
                         <div className="service-box-one animate fadeInUp wow" data-wow-duration="1500ms" data-wow-delay="400ms">
@@ -78,10 +81,12 @@ const Services = () => {
                                         strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </div>
-                            <h4>Work organization</h4>
-                            <p>We specialize in serving such as healthcare, finance, or manufacturing, and offer
-                                tailored solutions.</p>
-                            <Link href="/service-details" className="service-btn-one"><i className="fa-solid fa-angle-right"></i></Link>
+                            <h4>Customized NeuroLeadership Program Development</h4>
+                            <p>Based on the results of the neuroleadership analysis, we create a tailored neuroleadership
+                            development program for your organization. The program is developed using exclusive
+                            neuroleadership consulting models, making the approach fully aligned with your organization’s
+                            goals and needs.</p>
+                            {/* <Link href="/service-details" className="service-btn-one"><i className="fa-solid fa-angle-right"></i></Link> */}
                         </div>
                     </div>
                     <div className="service-right-inner-one">
@@ -100,10 +105,12 @@ const Services = () => {
                                         strokeLinejoin="round" />
                                 </svg>
                             </div>
-                            <h4>Digital marketing</h4>
-                            <p>We specialize in serving specific industries, such as healthcare, finance, or
-                                manufacturing solutions.</p>
-                            <Link href="/service-details" className="service-btn-one"><i className="fa-solid fa-angle-right"></i></Link>
+                            <h4>Integration of NeuroLeadership into Organizational Development Strategy</h4>
+                            <p>Our consulting service supports the process of integrating neuroleadership principles into your
+                            organization’s development strategy. We aim to support organizational transformation through
+                                the optimization of organizational structures, communication, and decision-making processes,
+                                incorporating strategies that focus on improving brain activity.</p>
+                            {/* <Link href="/service-details" className="service-btn-one"><i className="fa-solid fa-angle-right"></i></Link> */}        
                         </div>
                         <div className="service-box-one animate fadeInUp wow" data-wow-duration="1500ms" data-wow-delay="400ms">
                             <Image src="/assets/images/services/services-4.png" alt="icon" width={100} height={100} />
@@ -130,9 +137,9 @@ const Services = () => {
                                         strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </div>
-                            <h4>Innovation space</h4>
-                            <p>Our solutions are scalable and can grow with your business, the
-                                most value out of your investment.</p>
+                            <h4>NeuroLeadership Workshops</h4>
+                            <p>We offer interactive workshops where teams will learn the essentials of neuroleadership and
+                            practical tools to address current leadership challenges.</p>
                             <Link href="/service-details" className="service-btn-one"><i className="fa-solid fa-angle-right"></i></Link>
                         </div>
                     </div>

@@ -12,7 +12,7 @@ const SideMenu = () => {
                 <span></span>
             </a>
             <div className="side-menu-logo-box">
-                <Link href="/"><Image src="/assets/images/footer-logo.svg" alt="logo" width={150} height={50} /></Link>
+                <Link href="/"><Image src="/assets/images/footer-logo.png" alt="logo" width={150} height={50} /></Link>
             </div>
             <div className="side-menu-container">
                 <p>Uniqo - Business Consulting WordPress Theme for professionals, services, and solutions.</p>

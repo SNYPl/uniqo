@@ -12,7 +12,7 @@ const MobileNav = () => {
                 <span></span>
             </a>
             <div className="logo-box">
-                <Link href="/"><Image width={150} height={50} src="/assets/images/Logo.svg" alt="logo" /></Link>
+                <Link href="/"><Image width={150} height={50} src="/assets/images/logo.png" alt="logo" /></Link>
             </div>
             <div className="mobile-nav-container">
                 <ul className="mobile-menu-list">

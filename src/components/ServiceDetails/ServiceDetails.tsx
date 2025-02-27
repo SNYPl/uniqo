@@ -87,7 +87,7 @@ const ServiceDetails = () => {
                             </ul>
                         </div>
                         <div className="service-details-cta-widget animate fadeInRight wow" data-wow-duration="1500ms" data-wow-delay="400ms">
-                            <Image src="/assets/images/Logo.svg" alt="icon" width={150} height={50} />
+                            <Image src="/assets/images/logo.png" alt="icon" width={150} height={50} />
                             <h5>Need Help? We Are Here To Help You</h5>
                             <Link href="/contact" className="btn btn-primary btn-theme">Contact Us +</Link>
                         </div>

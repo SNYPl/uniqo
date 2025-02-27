@@ -5,10 +5,10 @@
 }
 @media only screen and (max-width:1700px) {
     .about-left-one {
-        height: 770px;
+        height: 500px;
     }
     .about-left-one img {
-        height: 770px;
+        height: 500px;
     }
     .about-right-one {
         margin-top: 0px;
@@ -1268,7 +1268,7 @@
 }
 @media only screen and (max-width:570px){
     p.lead{
-        font-size: 16px;
+        font-size: 15px;
     }
    
     .service-right-inner-one {

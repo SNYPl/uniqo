@@ -43,7 +43,7 @@ const Header: FC = () => {
             <nav className="main-menu">
                 <div className="main-menu-logo">
                     <Link href="/">
-                        <Image src="/assets/images/Logo.svg" alt="header-logo" width={150} height={40} />
+                        <Image src="/assets/images/logo.png" alt="header-logo" width={150} height={40} />
                     </Link>
                 </div>
                 <div className="main-menu-inner">
@@ -52,7 +52,7 @@ const Header: FC = () => {
                         <li className="menu-item-children active"><a href="#">Services</a><i
                                 className="fa-solid fa-chevron-down"></i>
                             <ul>
-                                <li><Link href="/services">Service</Link></li>
+                                <li><Link href="/service">Service</Link></li>
                                 <li><Link href="/courses">Courses</Link></li>
                                 
                             </ul>

@@ -4,14 +4,15 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from '@/components/Header/Header';
 import '@/styles/variables.css';
-import "@/styles/responsive.css";
-import "@/styles/style.css";
-import "@/styles/animate.min.css";
 import "@/styles/bootstrap.min.css";
 import "@/styles/slick.css";
+import "@/styles/animate.min.css";
 import "@/styles/font-awesome/all.min.css";
 import "@/styles/select2.min.css";
 import "@/styles/youtube-popup.css"
+import "@/styles/style.css";
+import "@/styles/responsive.css";
+
 import Script from 'next/script';
 // import Image from "next/image";
 import MobileNav from '@/components/MobileNav/MobileNav';

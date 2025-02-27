@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className="col-xl-4">
                         <div className="footer-about-one animate fadeInRight wow" data-wow-duration="1500ms">
                             <div className="footer-logo-one">
-                                <Image src="/assets/images/footer-logo.svg" alt="logo" width={150} height={50} />
+                                <Image src="/assets/images/footer-logo.png" alt="logo" width={150} height={50} />
                             </div>
                             <h4>Professional & modern, a theme designed to help your business stand out from the rest.</h4>
                             <p className="lead">We understand that business can be chaotic. That s where we come in. We re focused on adding.</p>

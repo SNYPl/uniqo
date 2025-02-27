@@ -6,6 +6,7 @@ export default function Home() {
       <PageBanner
         title="Courses"
         description="Leverage agile frameworks to provide a robust synopsis for high level overviews."
+        backgroundImage="/assets/images/courses.jpg"
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "Courses", link: "/courses" }

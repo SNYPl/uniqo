@@ -12,6 +12,7 @@ export default function AboutPage() {
         <PageBanner 
           title="About Us" 
           description="Leverage agile frameworks to provide a robust synopsis for high level overviews."
+          backgroundImage="/assets/images/about/about.jpg"
           breadcrumb={[
             { label: "Home", link: "/" },
             { label: "About us", link: "/about" }

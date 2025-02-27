@@ -10,11 +10,11 @@ export default function ServicePage() {
       <PageBanner 
         title="Services" 
         description="Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to collaborative."
+        backgroundImage="/assets/images/services/services.jpg"
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "Services", link: "/service" }
         ]} 
-        backgroundImage="/assets/images/background/service-page-bg.jpg"
       />
       <ServicesGrid />
       <Process />
