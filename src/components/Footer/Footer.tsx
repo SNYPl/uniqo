@@ -19,13 +19,13 @@ const Footer = () => {
                   <Image
                     src="/assets/images/footer-logo.png"
                     alt="logo"
-                    width={150}
+                    width={250}
                     height={50}
                   />
                 </div>
               </div>
             </div>
-            <div className="col-xl-5 col-lg-6 col-md-8">
+            <div className="col-xl-6 col-lg-7 col-md-9">
               <div
                 className="footer-widget-one animate fadeInRight wow"
                 data-wow-duration="1500ms"
