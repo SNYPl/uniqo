@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { SERVICES_DATA } from "@/data/service-data";
 import PageBanner from "../PageBanner/PageBanner";
-
+import CTA from "../CTA/CTA";
 interface ServiceDetailsProps {
   serviceId: string;
 }
@@ -20,11 +20,11 @@ const ServiceDetails: React.FC<ServiceDetailsProps> = ({ serviceId }) => {
       <PageBanner
         title={service.title}
         description={service.shortDescription}
+        backgroundImage="/assets/images/services/services.jpg"
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "Services", link: "/service" },
         ]}
-        backgroundImage="/assets/images/background/service-page-bg.jpg"
       />
       <div className="service-details-section">
         <div className="container">
@@ -116,6 +116,7 @@ const ServiceDetails: React.FC<ServiceDetailsProps> = ({ serviceId }) => {
                   </div>
                 </div>
               </div>
+              <CTA />
             </div>
             <div className="col-lg-4">
               <div className="service-details-sidebar">

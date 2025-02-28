@@ -17,7 +17,8 @@ const ServicesHeader = () => (
         data-wow-duration="1500ms"
         data-wow-delay="200ms"
       >
-        We Always Provide Best Business Services to Our Customers
+        We incorporate the fundamentals of neuroscience into leadership
+        development
       </h2>
       <div
         className="service-left-details-one animate fadeInUp wow"
@@ -25,8 +26,8 @@ const ServicesHeader = () => (
         data-wow-delay="400ms"
       >
         <p className="lead">
-          Leverage agile frameworks to provide a robust synopsis for high level
-          overviews. Iterative approaches to collaborative.
+          Elevate decision-making, team synergy, and adaptability processes,
+          ensuring higher organizational efficiency
         </p>
         <Link href="/service" className="btn btn-secondary btn-theme">
           More Services +
@@ -41,10 +42,10 @@ const Services = () => {
     <div className="service-section-one">
       <div className="container">
         <div className="row gutter-y-30 justify-content-between">
-          <div className="col-lg-4">
+          <div className="col-lg-5">
             <ServicesHeader />
           </div>
-          <div className="col-xl-8 col-lg-8">
+          <div className="col-xl-7 col-lg-7">
             <div className="service-right-one">
               <div className="service-right-inner-one">
                 {SERVICES_DATA.slice(0, 2).map((service, index) => (

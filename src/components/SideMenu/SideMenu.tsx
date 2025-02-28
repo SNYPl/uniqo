@@ -44,14 +44,19 @@ const SideMenu = () => {
 
           <ul className="side-menu-social-media">
             <li>
-              <Link href="https://www.facebook.com/">
+              <Link href="https://www.facebook.com/profile.php?id=61572024643533">
                 <i className="fa-brands fa-facebook-f"></i>
               </Link>
             </li>
 
             <li>
-              <Link href="https://www.instagram.com/">
-                <i className="fa-brands fa-instagram"></i>
+              <Link href="https://www.linkedin.com/company/chrysaline-group/">
+                <Image
+                  src="/assets/images/svg/header/linkedin.svg"
+                  alt="icon"
+                  width={24}
+                  height={24}
+                />
               </Link>
             </li>
           </ul>

@@ -61,6 +61,24 @@ const Footer = () => {
                 <ul className="footer-menu-one">
                   <li>
                     <Image
+                      src="/assets/images/footer-icon/footer-one-10.svg"
+                      alt="icon"
+                      width={20}
+                      height={20}
+                    />
+                    <Link href="/service">Services</Link>
+                  </li>
+                  <li>
+                    <Image
+                      src="/assets/images/footer-icon/footer-one-10.svg"
+                      alt="icon"
+                      width={20}
+                      height={20}
+                    />
+                    <Link href="/process">Process</Link>
+                  </li>
+                  <li>
+                    <Image
                       src="/assets/images/footer-icon/footer-one-6.svg"
                       alt="icon"
                       width={20}
@@ -68,15 +86,7 @@ const Footer = () => {
                     />
                     <Link href="/courses">Courses</Link>
                   </li>
-                  <li>
-                    <Image
-                      src="/assets/images/footer-icon/footer-one-7.svg"
-                      alt="icon"
-                      width={20}
-                      height={20}
-                    />
-                    <Link href="/team">Team</Link>
-                  </li>
+
                   <li>
                     <Image
                       src="/assets/images/footer-icon/footer-one-8.svg"
@@ -88,13 +98,14 @@ const Footer = () => {
                   </li>
                   <li>
                     <Image
-                      src="/assets/images/footer-icon/footer-one-10.svg"
+                      src="/assets/images/footer-icon/footer-one-7.svg"
                       alt="icon"
                       width={20}
                       height={20}
                     />
-                    <Link href="/process">Process</Link>
+                    <Link href="/team">Team</Link>
                   </li>
+
                   <li>
                     <Image
                       src="/assets/images/footer-icon/footer-one-9.svg"
@@ -116,13 +127,18 @@ const Footer = () => {
                 <form action="#"></form>
                 <ul className="footer-social-media-one">
                   <li>
-                    <Link href="https://www.facebook.com/">
+                    <Link href="https://www.facebook.com/profile.php?id=61572024643533">
                       <i className="fa-brands fa-facebook-f"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.instagram.com/">
-                      <i className="fa-brands fa-instagram"></i>
+                    <Link href="https://www.linkedin.com/company/chrysaline-group/">
+                      <Image
+                        src="/assets/images/svg/header/linkedin.svg"
+                        alt="icon"
+                        width={24}
+                        height={24}
+                      />
                     </Link>
                   </li>
                 </ul>
@@ -130,18 +146,9 @@ const Footer = () => {
             </div>
             <div className="col-12">
               <div className="footer-lower-one">
-                <p className="lead">© Copyright@ Uniqo All rights reserved</p>
-                <ul>
-                  <li>
-                    <Link href="/about">Terms and conditions</Link>
-                  </li>
-                  <li>
-                    <span>|</span>
-                  </li>
-                  <li>
-                    <Link href="/about">Privacy policy</Link>
-                  </li>
-                </ul>
+                <p className="lead">
+                  © Copyright@ Chrysaline Group All rights reserved
+                </p>
               </div>
             </div>
           </div>

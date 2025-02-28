@@ -808,6 +808,17 @@ ul.main-menu-list li ul li:last-child {
   height: 100%;
   width: 100%;
 }
+.banner-image-one::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.4;
+}
+
 .banner-image-one img {
   height: 100%;
   width: 100%;
@@ -818,21 +829,13 @@ ul.main-menu-list li ul li:last-child {
   z-index: 1;
 }
 .banner-sub-title-one {
-  padding-left: 18px;
-  padding-bottom: 75px;
+  padding-left: 0;
+  padding-bottom: 10px;
   margin-bottom: 27px;
   position: relative;
   overflow: hidden;
 }
-.banner-sub-title-one::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 1px;
-  background-color: rgba(224, 224, 224, 0.17);
-}
+
 .banner-sub-title-one h2 {
   color: var(--uniqo-light);
   line-height: 1.1;
@@ -860,8 +863,19 @@ ul.main-menu-list li ul li:last-child {
 .banner-slide-item-one h1.heading-title {
   color: var(--uniqo-light);
   line-height: 1.1;
-  margin-bottom: 34px;
+  margin-bottom: 40px;
   animation: fade-left 1s ease;
+  padding-left: 30px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #e0e0e02b;
+  }
 }
 .slick-active .banner-slide-item-one h1.heading-title {
   animation: fade-left2 1s ease;
@@ -965,6 +979,7 @@ span.sub-title {
 }
 .service-left-one .heading-title {
   margin-bottom: 12px;
+  font-size: 40px;
 }
 .service-left-details-one {
   padding-left: 15px;
@@ -985,7 +1000,8 @@ span.sub-title {
   height: 80%;
 }
 .service-left-details-one p {
-  margin-bottom: 75px;
+  margin-bottom: 60px;
+  margin-top: 20px;
 }
 .service-right-one {
   display: flex;
@@ -1083,6 +1099,9 @@ span.sub-title {
   overflow: hidden;
   position: relative;
   margin: 0 70px;
+}
+.about-section-one-left {
+  border-right: 1px solid #d4d4d4;
 }
 .about-left-one {
   height: 634px;
@@ -1578,11 +1597,16 @@ span.sub-title {
   position: relative;
 }
 .team-details-one {
-  background-color: transparent;
+  background-color: #fff;
+  padding: 12px;
 }
 .team-details-one h4 {
   font-size: 20px;
   margin-bottom: 5px;
+  font-weight: 700;
+}
+.team-details-one p {
+  margin-bottom: 0;
 }
 .team-details-one h4 a {
   color: var(--uniqo-black);
@@ -1592,10 +1616,11 @@ span.sub-title {
   padding: 0;
   list-style: none;
   position: absolute;
-  bottom: 30px;
+  bottom: 25px;
+  right: 30px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   column-gap: 10px;
   opacity: 0;
@@ -1829,7 +1854,8 @@ h4.blog-title-one a:hover {
   padding-bottom: 82px;
 }
 .contact-section-one .sub-title {
-  margin-bottom: 9px;
+  margin-bottom: 40px;
+  font-size: 20px;
 }
 .contact-section-one .heading-title {
   margin-bottom: 33px;
@@ -1842,15 +1868,15 @@ ul.contact-details-one {
   margin: 0;
   padding: 0;
   list-style: none;
-  padding-left: 65px;
+  padding-left: 10px;
   position: relative;
 }
 ul.contact-details-one::after {
   content: "";
   position: absolute;
-  top: -60px;
+  top: 0;
   left: 0;
-  height: 255px;
+  height: 120px;
   width: 1px;
   background-color: #d4d4d4;
 }
@@ -1859,7 +1885,7 @@ ul.contact-details-one::before {
   position: absolute;
   top: 40px;
   left: 0;
-  height: 87px;
+  height: 40px;
   width: 1px;
   background-color: #3b4443;
   z-index: 1;
@@ -1919,6 +1945,10 @@ footer.footer-one {
 }
 .footer-logo-one {
   margin-bottom: 23px;
+
+  img {
+    transform: translateY(-15px);
+  }
 }
 .footer-widget-one h4 {
   margin-bottom: 30px;
@@ -6223,6 +6253,11 @@ ul.footer-social-media-five li a {
 }
 .side-menu-logo-box {
   margin-bottom: 50px;
+
+  a {
+    display: flex;
+    justify-content: center;
+  }
 }
 .side-menu-container p {
   margin-bottom: 30px;

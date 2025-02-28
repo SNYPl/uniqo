@@ -1,15 +1,17 @@
-import PageBanner from '@/components/PageBanner/PageBanner';
-import Team from '@/components/Team/Team';
+import PageBanner from "@/components/PageBanner/PageBanner";
+import Team from "@/components/Team/Team";
 export default function Home() {
   return (
     <main>
       <PageBanner
         title="Team"
-        description="Leverage agile frameworks to provide a robust synopsis for high level overviews."
+        description="Unleash the power of neuroscience in leadership
+            to boost effectiveness and drive lasting resilience in your
+            organization."
         backgroundImage="/assets/images/team/team.jpg"
         breadcrumb={[
           { label: "Home", link: "/" },
-          { label: "Team", link: "/team" }
+          { label: "Team", link: "/team" },
         ]}
       />
       <Team />

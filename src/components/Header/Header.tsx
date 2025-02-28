@@ -38,18 +38,18 @@ const Header: FC = () => {
               </ul> */}
               <ul className="topbar-social-media-one">
                 <li>
-                  <Link href="https://www.instagram.com/">
+                  <Link href="https://www.facebook.com/profile.php?id=61572024643533">
+                    <i className="fa-brands fa-facebook-f"></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://www.linkedin.com/company/chrysaline-group/">
                     <Image
-                      src="/assets/images/svg/header/Insta.svg"
+                      src="/assets/images/svg/header/linkedin.svg"
                       alt="icon"
                       width={24}
                       height={24}
                     />
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://www.facebook.com/">
-                    <i className="fa-brands fa-facebook-f"></i>
                   </Link>
                 </li>
               </ul>
@@ -76,26 +76,30 @@ const Header: FC = () => {
                   <Link href="/">Home</Link>
                 </li>
                 <li className="menu-item-children active">
-                  <a href="#">Services</a>
-                  <i className="fa-solid fa-chevron-down"></i>
-                  <ul>
+                  <a href="service">Services</a>
+                </li>
+                {/* <i className="fa-solid fa-chevron-down"></i> */}
+                {/* <ul>
                     <li>
                       <Link href="/service">Service</Link>
                     </li>
                     <li>
                       <Link href="/courses">Courses</Link>
                     </li>
-                  </ul>
-                </li>
+                  </ul> */}
                 <li className="menu-item-children">
-                  <Link href="/team">Team</Link>
+                  <Link href="/process ">Process</Link>
+                </li>
+                <li>
+                  <Link href="/courses">Courses</Link>
                 </li>
                 <li className="menu-item-children">
                   <Link href="/about">About us</Link>
                 </li>
                 <li className="menu-item-children">
-                  <Link href="/process ">Process</Link>
+                  <Link href="/team">Team</Link>
                 </li>
+
                 <li className="menu-item-children">
                   <Link href="/contact">Contact Us</Link>
                 </li>
@@ -109,14 +113,14 @@ const Header: FC = () => {
                 <Link href="/contact" className="btn btn-light btn-theme">
                   Get In Touch +
                 </Link>
-                <button className="search-btn">
+                {/* <button className="search-btn">
                   <Image
                     src="/assets/images/svg/header/Search.svg"
                     alt="icon"
                     width={24}
                     height={24}
                   />
-                </button>
+                </button> */}
                 <div className="header-side-menu">
                   <span className="line-1"></span>
                   <span className="line-2"></span>
