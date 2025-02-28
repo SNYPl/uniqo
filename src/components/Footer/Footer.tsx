@@ -10,7 +10,7 @@ const Footer = () => {
       <footer className="footer-one">
         <div className="container-fluid">
           <div className="row gutter-y-30">
-            <div className="col-xl-4">
+            <div className="col-xl-2">
               <div
                 className="footer-about-one animate fadeInRight wow"
                 data-wow-duration="1500ms"
@@ -23,17 +23,9 @@ const Footer = () => {
                     height={50}
                   />
                 </div>
-                <h4>
-                  Professional & modern, a theme designed to help your business
-                  stand out from the rest.
-                </h4>
-                <p className="lead">
-                  We understand that business can be chaotic. That s where we
-                  come in. We re focused on adding.
-                </p>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
+            <div className="col-xl-5 col-lg-6 col-md-8">
               <div
                 className="footer-widget-one animate fadeInRight wow"
                 data-wow-duration="1500ms"
@@ -74,7 +66,7 @@ const Footer = () => {
                       width={20}
                       height={20}
                     />
-                    <Link href="/about">About</Link>
+                    <Link href="/courses">Courses</Link>
                   </li>
                   <li>
                     <Image
@@ -83,7 +75,7 @@ const Footer = () => {
                       width={20}
                       height={20}
                     />
-                    <Link href="/careers">Career</Link>
+                    <Link href="/team">Team</Link>
                   </li>
                   <li>
                     <Image
@@ -92,7 +84,16 @@ const Footer = () => {
                       width={20}
                       height={20}
                     />
-                    <Link href="/careers">Applications</Link>
+                    <Link href="/about">About</Link>
+                  </li>
+                  <li>
+                    <Image
+                      src="/assets/images/footer-icon/footer-one-10.svg"
+                      alt="icon"
+                      width={20}
+                      height={20}
+                    />
+                    <Link href="/process">Process</Link>
                   </li>
                   <li>
                     <Image
@@ -103,43 +104,16 @@ const Footer = () => {
                     />
                     <Link href="/contact">Contact Us</Link>
                   </li>
-                  <li>
-                    <Image
-                      src="/assets/images/footer-icon/footer-one-10.svg"
-                      alt="icon"
-                      width={20}
-                      height={20}
-                    />
-                    <Link href="/portfolio">Case Studies</Link>
-                  </li>
                 </ul>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4">
+            <div className="col-xl-2 col-lg-3">
               <div
                 className="footer-newslatter-one animate fadeInRight wow"
                 data-wow-duration="1500ms"
                 data-wow-delay="600ms"
               >
-                <form action="#">
-                  <div className="newslatter-form-group">
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Enter your email"
-                      className="form-control"
-                      required
-                    />
-                    <button type="submit" className="btn-link">
-                      <Image
-                        src="/assets/images/svg/arrow-link.svg"
-                        alt="icon"
-                        width={20}
-                        height={20}
-                      />
-                    </button>
-                  </div>
-                </form>
+                <form action="#"></form>
                 <ul className="footer-social-media-one">
                   <li>
                     <Link href="https://www.facebook.com/">

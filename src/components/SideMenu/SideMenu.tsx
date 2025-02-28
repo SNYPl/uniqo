@@ -23,42 +23,35 @@ const SideMenu = () => {
         </div>
         <div className="side-menu-container">
           <p>
-            Uniqo - Business Consulting WordPress Theme for professionals,
-            services, and solutions.
+            Chrysaline Group - Unleash the power of neuroscience in leadership
+            to boost effectiveness and drive lasting resilience in your
+            organization.
           </p>
           <h4>Contact Info</h4>
           <ul>
             <li>
-              <span>Mon - Frd : 10:00 -16:00</span>
+              <span>Mon - Frd : 10:00 -18:00</span>
             </li>
             <li>
-              <a href="mailto:help@company.com">help@company.com</a>
+              <a href="mailto:info@chrysalinegroup.com">
+                info@chrysalinegroup.com
+              </a>
             </li>
             <li>
-              <a href="telto:+120.098.45611"> +120.098.456 11</a>
+              <a href="telto:+120.098.45611"> +995 599 87 47 49</a>
             </li>
           </ul>
-          <h4>Office Address</h4>
-          <p>28 Valencia Street, New York United States of America</p>
+
           <ul className="side-menu-social-media">
             <li>
               <Link href="https://www.facebook.com/">
                 <i className="fa-brands fa-facebook-f"></i>
               </Link>
             </li>
-            <li>
-              <Link href="https://x.com/">
-                <i className="fa-brands fa-twitter"></i>
-              </Link>
-            </li>
+
             <li>
               <Link href="https://www.instagram.com/">
                 <i className="fa-brands fa-instagram"></i>
-              </Link>
-            </li>
-            <li>
-              <Link href="https://in.linkedin.com/">
-                <i className="fa-brands fa-linkedin-in"></i>
               </Link>
             </li>
           </ul>
