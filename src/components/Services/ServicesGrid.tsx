@@ -47,7 +47,7 @@ const ServicesGrid = () => {
                 </div>
                 <div className="service-details-two">
                   <h4>
-                    <Link href="/service-details">{service.title}</Link>
+                    <Link href={`/service/${service.id}`}>{service.title}</Link>
                   </h4>
                 </div>
               </div>

@@ -6,6 +6,7 @@ interface ServiceBoxProps {
   title: string;
   iconSrc: string;
   IconComponent: React.ComponentType;
+  id: string;
   delay?: number;
 }
 
@@ -14,6 +15,7 @@ const ServiceBox: React.FC<ServiceBoxProps> = ({
   iconSrc,
   IconComponent,
   delay = 0,
+  id,
 }) => {
   return (
     <div
@@ -26,7 +28,7 @@ const ServiceBox: React.FC<ServiceBoxProps> = ({
         <IconComponent />
       </div>
       <h4>{title}</h4>
-      <Link href="/service-details" className="service-btn-one">
+      <Link href={`/service/${id}`} className="service-btn-one">
         <i className="fa-solid fa-angle-right"></i>
       </Link>
     </div>
