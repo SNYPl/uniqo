@@ -116,7 +116,6 @@ const ServiceDetails: React.FC<ServiceDetailsProps> = ({ serviceId }) => {
                   </div>
                 </div>
               </div>
-              <CTA />
             </div>
             <div className="col-lg-4">
               <div className="service-details-sidebar">

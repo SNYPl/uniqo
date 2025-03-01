@@ -8,7 +8,7 @@ export default function Home() {
         description="Unleash the power of neuroscience in leadership
             to boost effectiveness and drive lasting resilience in your
             organization."
-        backgroundImage="/assets/images/team/team.jpg"
+        backgroundImage="/assets/images/team/team-bg.jpg"
         breadcrumb={[
           { label: "Home", link: "/" },
           { label: "Team", link: "/team" },

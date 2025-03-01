@@ -1,8 +1,22 @@
+'use client'
+
 import { FC } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from 'next/navigation';
+import NavItem from './NavItem';
+import { navigationItems } from './navigation.config';
 
 const Header: FC = () => {
+  const pathname = usePathname();
+
+  const isActiveLink = (path: string, matchStartsWith?: boolean) => {
+    if (matchStartsWith) {
+      return pathname.startsWith(path);
+    }
+    return pathname === path;
+  };
+
   return (
     <>
       <div className="topbar-one">
@@ -72,37 +86,13 @@ const Header: FC = () => {
             </div>
             <div className="main-menu-inner">
               <ul className="main-menu-list">
-                <li className="menu-item-children active">
-                  <Link href="/">Home</Link>
-                </li>
-                <li className="menu-item-children active">
-                  <a href="service">Services</a>
-                </li>
-                {/* <i className="fa-solid fa-chevron-down"></i> */}
-                {/* <ul>
-                    <li>
-                      <Link href="/service">Service</Link>
-                    </li>
-                    <li>
-                      <Link href="/courses">Courses</Link>
-                    </li>
-                  </ul> */}
-                <li className="menu-item-children">
-                  <Link href="/process ">Process</Link>
-                </li>
-                <li>
-                  <Link href="/courses">Courses</Link>
-                </li>
-                <li className="menu-item-children">
-                  <Link href="/about">About us</Link>
-                </li>
-                <li className="menu-item-children">
-                  <Link href="/team">Team</Link>
-                </li>
-
-                <li className="menu-item-children">
-                  <Link href="/contact">Contact Us</Link>
-                </li>
+                {navigationItems.map((item) => (
+                  <NavItem
+                    key={item.path}
+                    {...item}
+                    isActive={isActiveLink(item.path, item.matchStartsWith)}
+                  />
+                ))}
               </ul>
               <div className="header-menu-collaps">
                 <span className="line-1"></span>
