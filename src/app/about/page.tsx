@@ -1,7 +1,7 @@
 import React from "react";
 import Script from "next/script";
 import PageBanner from "@/components/PageBanner/PageBanner";
-import About from "@/components/About/About";
+import OurMission from "@/components/About/OurMission";
 import WhyChooseSkills from "@/components/WhyChoose/WhyChooseSkills";
 
 export default function AboutPage() {
@@ -19,7 +19,7 @@ export default function AboutPage() {
             { label: "About us", link: "/about" },
           ]}
         />
-        <About />
+        <OurMission />
         <WhyChooseSkills />
       </main>
 
