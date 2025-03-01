@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { SERVICES_DATA } from "@/data/service-data";
 import PageBanner from "../PageBanner/PageBanner";
-import CTA from "../CTA/CTA";
 interface ServiceDetailsProps {
   serviceId: string;
 }
